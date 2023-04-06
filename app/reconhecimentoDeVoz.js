@@ -1,6 +1,7 @@
 // Reconhecimento de voz
 const elementoChute = document.getElementById('chute');
 
+
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
@@ -22,3 +23,7 @@ function exibeChuteNaTela(chute) {
     <span class="box">${chute}</span>
     `
 }
+
+recognition.addEventListener('end', () => {
+    recognition.start();
+})
