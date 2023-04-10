@@ -1,4 +1,4 @@
-// Reconhecimento de voz
+
 const elementoChute = document.getElementById('chute');
 
 
@@ -22,8 +22,11 @@ function exibeChuteNaTela(chute) {
     <div>Você disse:</div>
     <span class="box">${chute}</span>
     `
+      
 }
 
 recognition.addEventListener('end', () => {
     recognition.start();
 })
+
+

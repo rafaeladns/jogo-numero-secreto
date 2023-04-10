@@ -4,7 +4,6 @@ function verificaSeOChutePossuiUmValorValido(chute) {
     if (chuteForInvalido(numero)) {
         elementoChute.innerHTML += '<div>Valor inválido</div>';
         return 
-
     }
 
     if(numeroForMaiorOuMenorQueOValorPermitido(numero)) {
@@ -50,3 +49,5 @@ document.body.addEventListener('click',e => {
         window.location.reload();
     }
 })
+
+//Api estava apresentando os valores abaixo de 10 por extenso, criado um objeto para resolver este bug da API
