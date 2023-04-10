@@ -1,6 +1,6 @@
 // Sortear um número secreto aleatório
 const menorValor = 1;
-const maiorValor = 100;
+const maiorValor = 1000;
 const numeroSecreto = gerarNumeroAleatorio()
 
 
