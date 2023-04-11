@@ -1,25 +1,22 @@
-# Jogo número Secreto
-Descrição do projeto:
+# Guess the Number
+Guess the Number is a simple game where the player needs to guess a secret number between a minimum and maximum value. The game provides hints to help the player make their guesses, and the player can choose to play again after winning or losing.
 
-Este projeto é um jogo de adivinhação de números, onde o jogador tem que adivinhar um número escolhido aleatoriamente pelo computador. O jogo é desenvolvido em JavaScript e pode ser jogado diretamente no navegador.
+This project was created as part of a course on JavaScript fundamentals and utilizes HTML, CSS, and JavaScript.
 
-Instruções para jogar:
+How to Play
+Choose a minimum and maximum value for the secret number.
+Enter your guess in the input field and click the "Guess" button.
+If your guess is incorrect, the game will provide a hint to help you guess again.
+Keep guessing until you correctly guess the secret number.
+After winning or losing, you can choose to play again by clicking the "Play Again" button.
+Getting Started
+To run this project on your local machine, follow these steps:
 
-Abra o arquivo index.html no seu navegador.
-Insira um número no campo de entrada e pressione o botão "Chutar".
-O jogo irá informar se o número é maior ou menor do que o número secreto.
-Repita o passo 2 até acertar o número ou até que o número de tentativas seja esgotado.
-Se o jogador acertar o número, será exibida uma mensagem de parabéns e a opção de jogar novamente.
-Se o jogador errar todas as tentativas, será exibida uma mensagem de game over e a opção de jogar novamente.
-Estrutura do projeto:
+Clone the repository to your local machine.
+Open the index.html file in your preferred web browser.
+Play the game!
+Contributing
+This project was created as a learning exercise and is not actively maintained. However, feel free to fork the repository and create your own version of the game!
 
-O projeto consiste em três arquivos principais:
-
-index.html: contém a estrutura básica do jogo, incluindo o campo de entrada e o botão "Chutar".
-style.css: contém o estilo do jogo, incluindo as cores e fontes utilizadas.
-script.js: contém o código JavaScript do jogo, incluindo a lógica para gerar um número aleatório, verificar se o número é válido e informar se o jogador acertou ou não.
-Contribuição:
-
-Se você gostaria de contribuir com o projeto, sinta-se livre para abrir um pull request no repositório do projeto no GitHub: [link para o repositório].
-
-Créditos:
+License
+This project is licensed under the MIT License. See the LICENSE.md file for details.
