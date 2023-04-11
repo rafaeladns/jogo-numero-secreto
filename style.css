@@ -3,12 +3,12 @@
 
 :root {
     --font-family: font-family: 'Nunito', sans-serif;
-    --bg-color: #9A208C;
     --primary-color: #FFEAEA;
 }
 
 body {
-    background-color: var(--bg-color);
+    background-image: url(./img/gif-matrix.gif);
+    background-size: cover;
     color: var(--primary-color);
     min-height: 100vh;
     display: flex;
@@ -18,6 +18,11 @@ body {
     text-align: center;
     margin: 0;
     font-family: 'Nunito', sans-serif;
+}
+
+.main {
+    background-color: black;
+    padding: 100px;
 }
 
 h1 {
@@ -47,11 +52,18 @@ h3 {
 }
 
 .btn-jogar {
-    padding: 8px 15px;
+    padding: 15px;
     border: none;
     background-color: var(--primary-color);
     border-radius: 5px;
     margin-top: 20px;
     font-size: 24px;
     cursor: pointer;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.btn-jogar:hover {
+    background-color: #a6d984;
+    color: white;
 }
